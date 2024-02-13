@@ -1,0 +1,49 @@
+					Namaste React Episode 5
+                                  ------------------------------------
+
+1.What is Hook?
+--> Hooks are normal javascript function.
+--> Functions starting with use are called Hooks.
+
+2.What are the rules of using hook?
+--> Hooks must be declared at the of top level of componenet.
+    Don't use hooks inside loop,conditions,nested function.
+    Only call Hooks from React function components,not from normal js function.
+
+3.What is useState hook?
+--> It is new way of creating variable.
+    If we want to create local variable inside react,you need to use state variable and 
+    state variable are create using useState Hook.
+    It returns an array.
+    It has two parameters the first one is variable and second one is function which is used to update variable
+
+4.Why do we need state variable?
+--> Because when we create normal js variable and updates, it does not update the ui because react does't track it. That's why we need superpowerful state variable(react keep track ok it and when ever state variable change it will update the ui).
+
+5.Why do we need second arrgumment inside useState hook?
+--> to refresh the page or to trigger the reconciliation algorithm and update the ui.
+
+6.What is vitual dom?
+--> It is the representation of Actual DOM.
+
+7.What is reconciliation?
+--> The process of updating the ui is knowns as reconciliation.
+
+8.What is Diff algorithm?
+--> It means finding the diffrenece between older vartual dom and new vartual and then updated the actual dom.
+
+9.What is React Fiber?
+-->In react 16 react come up with new alogorithum which is known as react fiber.
+   React Fiber is the new reconciliation engine in React 16.
+
+10.Why react is fast?
+--> Beacuse it efficiently do dom manipulation. It has vartual dom.
+    It has diff algorithm which find the diff between the older vatrual dom and new virtual dom and then updated the actual dom(ui), this whole is known as react fiber. 
+
+
+Other Imp points learn from this video
+--> React File structure.
+--> Diff Ways to Import and Export Components.
+
+
+

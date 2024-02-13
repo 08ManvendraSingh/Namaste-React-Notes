@@ -1,0 +1,34 @@
+						Namaste React Episode 7
+					---------------------------------------
+
+1.How to use React Router Dom?
+--> First we have to download react router dom package from npm, by using npm i react-router-dom command.
+--> After that we have to create a configuration and for creating configuration we have import createBrowserRouter from react-router-dom.
+--> createBrowserRouter takes an configuration and it takes an array of objects.
+--> Each object defines a path and what happens on that path. 
+    for example {
+		  path:'/',
+	          element:<Body/>,
+		}, // this tells that if path was '/' then load Body component.
+
+--> Next thing is to provide this configuration so that it render's on screen and for that we have import RouterProvider from react-router-dom.
+--> If anyone trys to access any random path, react-router-dom creates an error page for that. 
+
+
+2.Why not to use Anchor tag?
+--> when navigate from one route to another route don't use anchor tag cos it will relaod the whole page.
+    So for that react-router-dom gives us an Link component to do this without reloading the page.  
+
+3.What is Single Page Application(SAP)?
+--> React apps are spa.
+--> SPA will not reload the page , it will not make network call when we are changing page. It will interchanged the components.
+
+4.Different types of routing?
+--> 1. Server side routing :
+       In server side routing all the page are come for server.
+       for example: We have different page such as home.html , about.html so it makes the network call and gets the data and then reload the whole page.
+
+    2. Client side routing :
+       In client side routing it's doesn't make an network call , it interchaged the components accirding to url. That's why it is single page application.
+
+

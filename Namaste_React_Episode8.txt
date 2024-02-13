@@ -1,0 +1,6 @@
+						Namaste React Episode 8
+                                        ---------------------------------------
+
+1.single responsibility principle.
+2.custom hook.
+3.

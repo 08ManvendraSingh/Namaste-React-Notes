@@ -1,0 +1,51 @@
+                                               Namaste React Episode 3
+				       ---------------------------------------
+
+1.What is jsx?
+--> Jsx stands for JavaScript XML.
+--> It is html like syntax(not html).
+--> It is a easier syntax to creat react element.
+--> If you want to give attribute to jsx then use camelcase.
+
+2.What is Babel?
+--> It is an Javascript transpiler(compiler).
+    It is an transpliler which converts jsx code to which browser understand.
+    Older browser does not understand es6 so bable transpile the code that older browser understand.
+  
+3.What is componenet?
+--> Everything in react is componenet.
+--> ex:button,header,card,etc
+
+4.What are the different type of component?
+--> 1.Class based component(older way of writing component).
+--> 2.Functional component(newer way of writing component).
+
+5.What is functional component?
+--> It is a normal javascript function which returns some piece of jsx(react element).
+--> It is good to create function componenet with capital letter(it is not mandatory but it is common         convention so that react understand it that it is functional component).
+ 
+6.Difference between ReactElement and ReactComponent?
+--> ReactElement return js object.
+    ReactComponent return some piece of jsx or react element
+    
+    At the time of rendering react element we write element name
+    At the time of rendering react component we write component name inside the angular bracket.
+
+7.Different ways to render react functional component?
+--> ex: 1.<Heading/> 
+        2.<Heading></Heading>
+        3.Heading()
+
+8.What is component composition?
+--> It means rendering component inside the component.
+
+9.What is this {}?
+--> inside {} this we can write any piece of javascript code in jsx.
+
+10.How to put any react element inside react component?
+--> we can do this inside {}
+ 
+11.what is xss?
+--> XSS - Cross site scripting (XSS) is an attack in which an attacker injects malicious executable scripts     into the code of a trusted application or website. Attackers often initiate an XSS attack by sending a malicious link to a user and enticing the user to click it.
+JSX takes care of XSS.
+

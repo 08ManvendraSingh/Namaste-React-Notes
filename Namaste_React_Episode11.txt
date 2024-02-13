@@ -1,0 +1,21 @@
+					Namaste React Episode 11
+				  -----------------------------------
+
+1.What is Higher Order Component?
+--> Higher order component takes a component as an arrgument and enhance that component and return a new component.
+    for eg: in swiggy there is an restaurant card, so hoc take that restaurant card component and enhances that component by adding promoted label on top of it and returns an new component with promoted label.
+    Higher order components are pure components.
+
+2.What is pure component?
+--> 
+
+3.What is controlled component?
+-->
+
+4.What is uncontrolled component?
+-->
+
+5.What is props drilling?
+-->
+
+6.What is context?

@@ -1,0 +1,69 @@
+                                      Namaste React Episode 2
+				-----------------------------------
+
+1.What is npm?
+--> It is package manger which manages all the packages.
+    It is one of the biggest repositery where all the packages are hosted.
+    
+2.How to make our app use npm?
+--> By writing command npm init.
+    When we do npm init it create an package.json file which is the configuration file for npm.
+    
+3.what is package.json file?
+--> It is the configuration file for npm.
+    It tracks the version of all the dependency.
+
+4.What is bundler?
+--> It bundles all the code so that we can send it to the production.
+    It bundles the code, minified code,optimize code, chunking.
+
+5.Name some of the bundlers?
+--> Webpack,Parcel,Viet,etc
+
+6.What is Dependency?
+--> When our project need code from other packages to run, these third party code are known as dependency.
+
+7.What are the different type of dependency?
+--> 1.Dev dependency 2.Normal dependency
+    Dev dependency-> when we need any package in developent or testing we can install that package as dev dependency.
+    Normal dependency-> when we need any package in production we can install that package as normal dependency.
+
+8.What is the command to install package as dev dependency?
+--> npm i -D name of package.
+
+9.What is Caret and Tilde?
+--> Caret(^) -> it means only update my minor and patch version.
+    Tilde(~) -> it meanns olny update my patch version and major and minor version are remain same.
+
+10.What is package-lock.json file?
+--> package-lock.json is a lockfile that contains information about the dependencies/packages with their exact version.
+
+11.What is node_mdules?
+--> It contains all the code of the dependency that we fetch from npm.
+--> It is like a database which contain data of the dependency.
+
+12.What is transitive dependency?
+--> When we install any package it has its own dependency and these dependency has its own dependency 
+    this is known as transititve dependency.
+
+13.What is npx?
+--> It means we are executing the package.
+
+14.Difference b/w npm and npx?
+--> npm-> when we install any package we use npm i package name
+    npx-> when we execute the package we use npx package name.
+
+15.What is parcel?
+--> It is bundler which bundles the code -> it bundles all the file into one file.
+    It also create local server for us -> it host your project on localhost.
+    It also does HMR(hot module replacement) -> when you save it automatically refreshes your page .
+    It also does caching-fatser builds.
+    It also does image optimization,minfication.
+    It compress the code.
+    It does codespliting,diffrential bundling(means project supported on oblder browsers also).
+    It does tree shaking(removes unused code).
+    It does Diagnostic(it gives beauiful error to understand).
+
+16.What is Browserslist?
+--> It is a npm Package which is used to tell the browser that on what devices your app should support. 
+

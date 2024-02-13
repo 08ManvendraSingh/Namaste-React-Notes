@@ -1,0 +1,29 @@
+                                            Namaste React Episode 4
+                                     --------------------------------------
+
+1.What is Props?
+--> Props are just normal arrgument to a function.
+    Using props we can pass dynamic data to a component.
+    Props are immutabel we can not change props.
+    In react prorperties are known as props.
+    Props return object.
+
+2.What is config driven ui?
+--> It means ui is controlled by the data(which come from backend). or ui is driven by config.
+--> for ex: swiggy present on diffrent location and on each location their is diffrent info,
+    this happens beacuse swiggy frontend(ui) is controlled by config this is known as config driven ui.
+--> If we want red color background in mumbai and orange color in jaipur we can do this using config driven ui. 
+
+3.Why it is important to use key while using map?
+--> It is important because if you do map over something and does't give key then react can not identify each element as unique and if new element comes at that time it will rerender all the element.
+
+Other Imp Point's to learn from this episode
+
+--> Planning before creating react-app
+--> Destructuring on the fly
+--> object destructuring
+--> How to see api data
+--> How to see api data in browser using json viewer.
+--> How to review our code.
+--> Optional Channing.
+--> Array Map Method.
